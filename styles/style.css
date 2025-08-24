@@ -3,3 +3,17 @@
 .manrope{
   font-family: "Manrope", sans-serif;
 }
+
+
+@keyframes slideInLeft {
+  0% { transform: translateX(-100%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+@keyframes slideInRight {
+  0% { transform: translateX(100%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+
+/* <img src="your-image.jpg" class="w-[300px] animate-[slideInLeft_1s_ease-out]" />
+<img src="your-image.jpg" class="w-[300px] animate-[slideInRight_1s_ease-out]" /> */
